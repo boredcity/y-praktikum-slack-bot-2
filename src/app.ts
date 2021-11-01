@@ -16,7 +16,7 @@ type SayArguments = {
     text: string;
 };
 
-const MENTION_REGEX = /(\s|^)(@\w+)/g;
+const MENTION_REGEX = /(\s|^)\<?(@\S+)/g;
 
 app.command('/split-to-messages', async ({ command, ack, say }) => {
     console.log({command})
