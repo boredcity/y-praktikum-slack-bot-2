@@ -51,5 +51,11 @@ slack bot for Yandex.Praktikum
 ```
 
 ## Deploy
+```
+git add .
+git commit -am 'comment-text'
+git push heroku main
+```
 
+More info here:
 https://slack.dev/bolt-js/deployments/heroku
